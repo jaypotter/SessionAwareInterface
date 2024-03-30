@@ -9,4 +9,5 @@ use \Potter\Session\SessionInterface;
 interface SessionAwareInterface 
 {
     public function getSession(): SessionInterface;
+    public function hasSession(): bool;
 }
