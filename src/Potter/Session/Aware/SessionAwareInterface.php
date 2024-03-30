@@ -10,4 +10,5 @@ interface SessionAwareInterface
 {
     public function getSession(): SessionInterface;
     public function hasSession(): bool;
+    public function startSession(): void;
 }
